@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+     <Version>1.0.0</Version>
+    <Authors>Alexandre Yembo</Authors>
+    <Company>Hydra</Company>
+    <PackageDescription>Integration library for user services</PackageDescription>
+    <RepositoryUrl>https://github.com/AlexandreYembo/hydra-integrations</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hydra.Core.Abstractions" Version="1.0.2" />
+    <PackageReference Include="Hydra.Core.Mediator" Version="1.0.3" />
+    <PackageReference Include="Hydra.Core.Validator" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
