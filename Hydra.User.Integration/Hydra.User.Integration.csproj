@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-     <Version>1.0.0</Version>
+    <PackageId>Hydra.Ecommerce.Integrations</PackageId>
     <Authors>Alexandre Yembo</Authors>
     <Company>Hydra</Company>
     <PackageDescription>Integration library for user services</PackageDescription>
@@ -10,9 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Hydra.Core.Abstractions" Version="1.0.2" />
-    <PackageReference Include="Hydra.Core.Mediator" Version="1.0.3" />
-    <PackageReference Include="Hydra.Core.Validator" Version="1.0.0" />
+    <PackageReference Include="Hydra.Core.Mediator" Version="1.0.0-beta-210505.2" />
   </ItemGroup>
 
 </Project>
