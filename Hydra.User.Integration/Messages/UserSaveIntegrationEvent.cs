@@ -10,13 +10,12 @@ namespace Hydra.User.Integration.Messages
     {
         public UserSaveIntegrationEvent(Guid id, string name, string email, string identityNumber)
         {
-            Id = id;
+            AggregateId = id;
             Name = name;
             Email = email;
             IdentityNumber = identityNumber;
         }
 
-        public Guid Id { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string IdentityNumber { get; private set; }

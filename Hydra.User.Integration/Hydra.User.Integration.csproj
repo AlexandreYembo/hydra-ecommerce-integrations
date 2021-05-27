@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageId>Hydra.Ecommerce.Integrations</PackageId>
+    <PackageId>Hydra.Ecommerce.User.Integrations</PackageId>
     <Authors>Alexandre Yembo</Authors>
     <Company>Hydra</Company>
     <PackageDescription>Integration library for user services</PackageDescription>
